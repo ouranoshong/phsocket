@@ -1,0 +1,22 @@
+{
+    "name": "phsocket/phsocket",
+    "description": "A http socket util component",
+    "keywords": ["http", "socket"],
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ouranoshong",
+            "email": "ouranoshong@outlook.com"
+        }
+    ],
+    "require": {
+        "phutils/phutils": "^0.2.0",
+        "phdescriptors/phdescriptors": "^0.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhSocket\\": "./libs"
+        }
+    }
+}
