@@ -12,7 +12,8 @@
     ],
     "require": {
         "phutils/phutils": "^0.2.0",
-        "phdescriptors/phdescriptors": "^0.1.2"
+        "phdescriptors/phdescriptors": "^0.1.2",
+        "phmessage/phmessage": "^1.0"
     },
     "autoload": {
         "psr-4": {

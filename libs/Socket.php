@@ -9,6 +9,7 @@
 namespace PhSocket;
 
 use PhDescriptors\LinkPartsDescriptor;
+use PhMessage\Request;
 use PhUtils\DNSUtil;
 
 class Socket
@@ -22,7 +23,6 @@ class Socket
     const ERROR_SSL_NOT_SUPPORTED = 103;
 
     const ERROR_HOST_UNREACHABLE = 104;
-
 
     /**
      * @var resource
@@ -212,4 +212,5 @@ class Socket
     {
         return $this->getStatus()['unread_bytes'];
     }
+
 }
